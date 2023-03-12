@@ -1,0 +1,1 @@
+Para este proyecto se utilizó styled components para renderizar los componentes con los estilos dados.
