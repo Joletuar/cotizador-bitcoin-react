@@ -35,7 +35,7 @@ function Formulario({ setMonedas }) {
 
   useEffect(() => {
     const consultarAPI = async () => {
-      const url = import.meta.env.VITE_API_URL;
+      const url = import.meta.env.VITE_BITCON_API_URL;
 
       const respuesta = await fetch(url);
       const resultado = await respuesta.json();
